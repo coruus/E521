@@ -385,6 +385,7 @@ int ginv(type64 *x)
 	gsqr(t,z);
 	gmul(z,x,t);
 	gcopy(t,x);
+	return 0;
 }
 
 // Point Structure

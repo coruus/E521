@@ -429,6 +429,7 @@ void gmul(type64 *x,type64 *y,type64 *z)
 	gsqr(t,z);
 	gmul(z,x,t);
 	gcopy(t,x);
+	return 0;
 }
 
 // Point Structure
